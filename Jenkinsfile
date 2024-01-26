@@ -18,7 +18,7 @@ pipeline {
             echo 'Getting Private Repo'
             git(
                url: 'https://github.com/Piyal5464465/petclinic-spring.git',
-               credentialsId: 'jenkins-id',
+               credentialsId: 'cicd-deployment',
                branch: 'main'
             )
 
